@@ -22,15 +22,7 @@ This project analyzes how image degradation (Gaussian Noise and JPEG Compression
 4. **Install Dependencies:**
     
     `pip install -r requirements.txt`
-    
 
-## 📂 Structure
-
-`image-robustness-project/ ├── image/grp-photo.jpg ├── src/analysis.py ├── README.md ├── requirements.txt └── venv/`
-
-## 💻 Run Analysis
-
-`python3 src/analysis.py`
 
 ### Outputs
 
