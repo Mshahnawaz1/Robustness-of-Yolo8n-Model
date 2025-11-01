@@ -48,6 +48,8 @@ Run the main script to perform degradation experiments and generate results:
 
 ---
 
+---
+
 ## 📊 Insights
 
 - **JPEG Compression:** Causes a _sharp decline_ in Recall due to blocking artifacts
