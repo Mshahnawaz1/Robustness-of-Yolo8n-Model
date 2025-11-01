@@ -13,7 +13,7 @@ This project analyzes how image degradation (Gaussian Noise and JPEG Compression
   python3 -m venv venv
   ```
   ``` bash
-  venv\Scripts\activate (Windows)
+  venv\Scripts\activate
   ```
  ``` bash
  source venv/bin/activate  # macOS/Linux
