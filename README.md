@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 ## 🚀 Run the Analysis
 
-Run the main script to perform degradation experiments and generate results:
+Run the main jupyter file to perform experiments and generate results:
 
 ---
 
