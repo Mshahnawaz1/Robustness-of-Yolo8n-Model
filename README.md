@@ -10,7 +10,9 @@ This project evaluates how image degradation techniques — **Gaussian Noise** a
 
 ``` bash
 git clone https://github.com/Mshahnawaz1/Robustness-of-Yolo8n-Model.git
-cd image-degradation-robustness
+```
+``` bash
+cd Robustness-of-Yolo8n-Model
 ```
 
 ### 2. Create & Activate Virtual Environment
