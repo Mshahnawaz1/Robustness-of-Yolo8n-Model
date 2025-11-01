@@ -1,43 +1,72 @@
 # 🖼️ Image Degradation Robustness Analysis
 
-This project analyzes how image degradation (Gaussian Noise and JPEG Compression) affects object or face detection performance.
+This project evaluates how image degradation techniques — **Gaussian Noise** and **JPEG Compression** — impact object or face detection performance.
 
-  
+---
+
 ## ⚙️ Setup
 
-1. **Requirements:** Python ≥ 3.8
-    
-2. **Create & Activate Virtual Environment:**
-    
-  ``` bash
-  python3 -m venv venv
-  ```
-  ``` bash
-  venv\Scripts\activate (Windows)
-  ```
- ``` bash
- source venv/bin/activate  # macOS/Linux
- ```
-    
-4. **Install Dependencies:**
-    
-    `pip install -r requirements.txt`
+### 1. Clone the Repository
 
+``` bash
+git clone https://github.com/Mshahnawaz1/Robustness-of-Yolo8n-Model.git
+cd image-degradation-robustness
+```
 
-### Outputs
+### 2. Create & Activate Virtual Environment
 
-- **Visual Plot:** Original vs degraded images.
+```bash
+python -m venv venv
+```
+
+Activate it:
+
+```
+venv\Scripts\activate
+```
+
+### 3. Install Dependencies
+
+```
+pip install -r requirements.txt
+```
+
+---
+
+## 🚀 Run the Analysis
+
+Run the main script to perform degradation experiments and generate results:
+
+---
+
+## 📈 Outputs
+
+- **Visual Plot:** Comparison between original and degraded images
     
-- **Metrics Plot:** Recall & IoU decay with degradation.
+- **Metrics Plot:** Visualization of Recall and IoU decay under different degradation levels
     
+
+---
 
 ## 📊 Insights
 
-- JPEG compression causes a **sharp drop** in Recall (blocking artifacts).
+- **JPEG Compression:** Causes a _sharp decline_ in Recall due to blocking artifacts
     
-- Gaussian noise causes a **gradual decay** in performance.
+- **Gaussian Noise:** Leads to a _gradual performance decay_
     
+
+---
 
 ## 🤝 Contributing
 
-Fork → Create branch → Commit → Push → Pull Request.
+Contributions are welcome!
+
+1. Fork this repository
+    
+2. Create a new branch
+    
+3. Commit your changes
+    
+4. Push to your branch
+    
+5. Open a Pull Request
